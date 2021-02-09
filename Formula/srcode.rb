@@ -5,17 +5,17 @@
 class Srcode < Formula
   desc "Tool that help developers to manage their codebase in an effective & productive way."
   homepage ""
-  version "0.5.0"
+  version "0.6.0"
   license "GPL-3.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/creekorful/srcode/releases/download/v0.5.0/srcode_0.5.0_darwin_amd64.tar.gz", :using => CurlDownloadStrategy
-    sha256 "d02fc59485fb067e084bdc407df9f09a946db28c1d51f7193037ef20ed0a8584"
+    url "https://github.com/creekorful/srcode/releases/download/v0.6.0/srcode_0.6.0_darwin_amd64.tar.gz", :using => CurlDownloadStrategy
+    sha256 "e5732a4ba607e06b17245d96989707981686702e52217cfc9de8fa855b60a6a7"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/creekorful/srcode/releases/download/v0.5.0/srcode_0.5.0_linux_amd64.tar.gz", :using => CurlDownloadStrategy
-    sha256 "bd641961829f26c49ab72de6e1a8ae1f51f908fd0382f2b482d972d126cbea7f"
+    url "https://github.com/creekorful/srcode/releases/download/v0.6.0/srcode_0.6.0_linux_amd64.tar.gz", :using => CurlDownloadStrategy
+    sha256 "284b44b821d1ae8352b69d559c5943872e9004bb0fcf0d76bf70c130997a31ef"
   end
 
   depends_on "git"
